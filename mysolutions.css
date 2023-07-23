@@ -29,11 +29,16 @@
 }
 
 .ex-5-square:active{
-    transform: 3s;
+    transition: 3s;
     transform: scale(0.5,0.5);
 }
 
 .ex-6-img:hover{
-    transform: 10s;
+    transition: 3s;
     filter: grayscale(100%);
+}
+
+.ex-7-img:hover{
+    transition: 3s;
+    filter: grayscale(100%) sepia(30%);
 }
